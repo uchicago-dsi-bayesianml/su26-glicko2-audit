@@ -1,0 +1,18 @@
+# Game data is never committed. See data/README.md for how the author built it.
+*.pgn
+*.pgn.zst
+*.zst
+*.parquet
+*.npz
+titles.json
+baseline_ladder*.json
+glicko_baseline.npz
+data/*
+!data/README.md
+# Editor, OS and Python clutter
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
